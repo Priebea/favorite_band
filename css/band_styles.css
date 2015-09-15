@@ -1,14 +1,55 @@
 img {
   float: right;
-}
+  padding: 5px;
+  margin: 12px;
+  border: 10px solid red;
+  }
 
-.column {
+.column-1 {
   width: 300px;
   float: left;
   background-color: yellow;
+  padding: 5px;
+  margin: 12px;
+  text-align: center;
 }
+
+.column-2 {
+  width: 300px;
+  float: left;
+  background-color: green;
+  padding: 5px;
+  margin: 12px;
+  text-align: center;
+}
+
+.column-3 {
+  width: 300px;
+  float: left;
+  background-color: orange;
+  padding: 5px;
+  margin: 12px;
+  text-align: center;
+}
+
+.columns {
+  border: 2px solid pink;
+  background-color: pink;
+}
+
 .sidebar {
   background-color: pink;
   float: left;
   width: 100px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: black;
 }
